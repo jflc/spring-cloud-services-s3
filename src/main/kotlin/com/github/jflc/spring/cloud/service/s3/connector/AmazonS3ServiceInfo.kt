@@ -1,4 +1,4 @@
-package com.github.jflc.spring.cloud.service.s3
+package com.github.jflc.spring.cloud.service.s3.connector
 
 import org.springframework.cloud.service.BaseServiceInfo
 

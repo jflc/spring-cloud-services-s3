@@ -1,9 +1,8 @@
-package com.github.jflc.spring.cloud.service.s3
+package com.github.jflc.spring.cloud.service.s3.connector
 
 import org.assertj.core.api.BDDAssertions.then
 import org.springframework.cloud.service.BaseServiceInfo
 import org.testng.annotations.Test
-import java.util.HashMap
 
 class AmazonS3ServiceInfoCreatorTest {
 

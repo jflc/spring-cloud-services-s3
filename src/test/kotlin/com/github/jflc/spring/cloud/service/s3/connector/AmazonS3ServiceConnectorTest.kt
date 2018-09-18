@@ -1,4 +1,4 @@
-package com.github.jflc.spring.cloud.service.s3
+package com.github.jflc.spring.cloud.service.s3.connector
 
 import com.github.jflc.spring.cloud.service.s3.test.mock.MockCloudConnector
 import org.assertj.core.api.BDDAssertions.then

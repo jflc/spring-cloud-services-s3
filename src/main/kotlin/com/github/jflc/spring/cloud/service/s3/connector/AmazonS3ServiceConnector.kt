@@ -1,4 +1,4 @@
-package com.github.jflc.spring.cloud.service.s3
+package com.github.jflc.spring.cloud.service.s3.connector
 
 import io.pivotal.spring.cloud.config.java.ServiceInfoPropertySourceAdapter
 import org.springframework.context.annotation.Configuration
@@ -13,7 +13,7 @@ private const val SPRING_CLOUD_AWS_AWS_REGION = "spring.cloud.aws.s3.region"
 private const val SPRING_CLOUD_AWS_S3_BUCKET = "spring.cloud.aws.s3.bucket"
 
 @Configuration
-open class AmazonS3ServiceConnector: ServiceInfoPropertySourceAdapter<AmazonS3ServiceInfo>() {
+class AmazonS3ServiceConnector: ServiceInfoPropertySourceAdapter<AmazonS3ServiceInfo>() {
 
     override fun toPropertySource(serviceInfo: AmazonS3ServiceInfo): PropertySource<*> {
         val properties = mapOf(

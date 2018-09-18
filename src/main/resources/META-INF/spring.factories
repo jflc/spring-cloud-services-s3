@@ -1,0 +1,2 @@
+org.springframework.context.ApplicationListener=\
+com.github.jflc.spring.cloud.service.s3.connector.AmazonS3ServiceConnector
